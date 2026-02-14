@@ -4,12 +4,6 @@ When you create a RESTful service using Spring, its endpoints are not protected 
 Enabling Basic Authentication
 Once you add the Spring Security dependency to your pom.xml file, basic authentication is automatically activated. 
 
-<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-</dependency>
-
-
 Basic authentication requires users to provide a username and password to access protected endpoints.
 
 ## Default Credentials
